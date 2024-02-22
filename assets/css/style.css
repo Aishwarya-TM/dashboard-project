@@ -21,7 +21,9 @@ body
   height: 100vh;
   padding: 1.7 rem ;
   color: white;
-  background-color: black;
+  background-color: black
+  
+}
    
 }.logo
 {
@@ -56,4 +58,93 @@ body
   align-items: center;
   gap: 1.5rem;
   
+}
+.main-section
+{
+  position: relative;
+  background-color: rgb(65, 58, 58);
+  width: 100%;
+  padding: 1rem;
+}
+.header-wrapper img
+{
+   width: 20px;
+   height: 20px;
+   cursor: pointer;
+   border-radius: 50%;
+}
+.header-wrapper
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  flex-wrap: wrap;
+  background-color: white;
+  border-radius:10px ;
+  padding: 10px 1rem;
+  margin-bottom: 1rem;
+
+}
+.title
+{
+  color: white;
+}
+.user-info
+{
+  display: flex;
+  align-items: center;
+  gap: 1 ;
+}
+.search
+{
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  gap:5px;
+  padding: 4px 12px;
+  color: rbga(113,99,186,255);
+}
+.card-container
+{
+  background-color: rgb(12, 11, 11);
+  padding:2rem;
+  border-radius: 10px;
+  columns: white;
+
+}
+.card-wrapper
+{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.payment-card
+{
+  background-color: rgb(57, 53, 53);
+  border-radius: 10px;
+   padding: 1.2rem;
+   width: 40%;
+   height: 150px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between; 
+   color: black;
+}
+.card-header
+{
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.amount
+{
+  display: flex;
+  flex-direction: column;
+  
+}
+.title
+{
+  font-size: 12px;
+  font-weight: 200;
 }
