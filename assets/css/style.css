@@ -1,0 +1,51 @@
+*
+{
+    box-sizing: border-box;
+
+}
+body
+{
+    margin:0px;
+    background-color:#cbcbc3 ;
+}
+.main-section
+{
+    background-color: #cbe3e3;
+    height:auto;
+    width:50vw;
+    position: absolute;
+    top:0px;
+    left:25%;
+    right: 25%;
+    border-radius: 50px;
+
+}
+header
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box
+{
+    box-sizing: border-box;
+    align-items: left;
+    width: 150px;
+    height:150px;
+    border-radius: 50%;
+    margin-bottom:80px;
+}
+#id1
+{
+    box-sizing: ;
+    
+    margin-bottom:6px ;
+}
+#id2
+{
+    box-sizing: content-box;
+    
+    
+}
+
+ 
